@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
 
 ReactDOM.render(
   <App />,
   // App is our first React Component
-  document.getElementById('root')
+  document.getElementById("root")
   // this is the empty <div> into index.html!
 );
 

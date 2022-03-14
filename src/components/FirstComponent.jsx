@@ -1,21 +1,23 @@
 const FirstComponent = () => {
-    console.log("Hello, I'm FirstComponent getting mounted!")
+  console.log("Hello, I'm FirstComponent getting mounted!");
 
-    const myStyle = {
-        backgroundColor: 'blue'
-    }
+  const myStyle = {
+    backgroundColor: "blue",
+  };
 
-    return (
-        <>
-            <h2 style={myStyle} className="color-primary">Hello World from React.js!</h2>
-            <p>paragraph</p>
-        </>
-        // this <> is a React Fragment, a virtual wrapper for JSX elements
-    )
-}
+  return (
+    <>
+      <h2 style={myStyle} className="color-primary">
+        Hello World from React.js!
+      </h2>
+      <p>paragraph</p>
+    </>
+    // this <> is a React Fragment, a virtual wrapper for JSX elements
+  );
+};
 
 // you need to EXPORT every component you write
-export default FirstComponent
+export default FirstComponent;
 
 // now FirstComponent is ready to be used somewhere else
 

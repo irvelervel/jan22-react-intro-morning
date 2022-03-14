@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import FirstComponent from './components/FirstComponent';
+import "./App.css";
+import FirstComponent from "./components/FirstComponent";
 
 // this syntax very HTML-like is called JSX
 // it's still a template language
@@ -18,6 +17,6 @@ const App = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;
